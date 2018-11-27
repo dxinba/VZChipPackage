@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
   s.ios.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/dxinba/VZChipp", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/dxinba/VZChipp.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "VZDemo/VZChipp/**/*.{h,m}"
+  s.source_files  = "VZChipp/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
